@@ -233,9 +233,9 @@ public partial class MainPage : ContentPage
 
             // Set the previously found devices
             // Set the first microphone from the audioCapturer list
-            _sdk.Methods.setAudioCapturer(audioCapturer.name, audioCapturer.description);
+            _sdk.Methods.setAudioCapturer(audioCapturer.name);
             // Set the first speaker from the audioRenderer list
-            _sdk.Methods.setAudioRenderer(audioRenderer.name, audioRenderer.description);
+            _sdk.Methods.setAudioRenderer(audioRenderer.name);
             // Set the first camera from the videoCapturer list
             _sdk.Methods.setVideoCapturer(videoCapturer.name);
         }

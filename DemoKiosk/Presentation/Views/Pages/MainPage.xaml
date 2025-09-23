@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DemoKiosk.Presentation.Views.Pages.MainPage"
-             xmlns:videoSDK="clr-namespace:TrueConfVideoSDK;assembly=TrueConfVideoSDK"
+             xmlns:videoSDK="clr-namespace:TrueConfVideoSDK.Presentation;assembly=TrueConfVideoSDK"
              NavigationPage.HasNavigationBar="False" >
     <ScrollView>
         <Grid RowDefinitions="10*, *"
