@@ -52,6 +52,8 @@ In this example we demonstrate how to get started with the TrueConf.VideoSDK.MAU
 
 The application itself consists of one main window. When launched, it connects to the video communication server and authorizes with the specified credentials. The only button, **Call**, is used to make a video call to the subscriber.
 
+![Demo kiosk based on the TrueConf SDK](assets/demo.png)
+
 ### Authentication
 
 Authorization is shown in <interface all='{Presentation}{Views}{Pages}{MainPage.xaml.cs}'/>. For demonstration purposes, the variables for connecting to the server are specified directly in the code. Creating your own authorization window or transferring parameters in another way is left to the discretion of the corporate application programmer:
