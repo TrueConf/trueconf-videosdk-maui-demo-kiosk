@@ -100,7 +100,7 @@ public partial class MainPage : ContentPage
             if (loginEvent.result == 8) // If we are not allowed to log in with our application type
             {
                 // Show an alert to the user
-                var alert = new AlertWindow("Unauthorized", "You are not authorized to log in with this application type.");
+                var alert = new AlertWindow("Unauthorized", "You are not authorized to log in with this application type.\nThe application will now close...");
                 Application.Current?.OpenWindow(alert);
                 // When the alert is closed, we close the DemoKiosk application
                 alert.Destroying += (sender, e) =>
